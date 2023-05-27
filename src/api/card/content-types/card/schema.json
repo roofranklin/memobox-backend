@@ -12,8 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "text": {
-      "type": "text"
+    "long_description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 1024
     },
     "card_id": {
       "type": "uid"
